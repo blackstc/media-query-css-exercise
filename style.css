@@ -27,3 +27,10 @@ body {
   color: #ffffff;
   display: inline-block;
 }
+
+@media screen and (max-width: 650px) {
+    .nav li{
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+}
